@@ -29,6 +29,7 @@ module FindLib
       x << "/usr/local/lib64"
       x << "/opt/local/lib64"
       x << "/usr/lib64"
+      x << "/usr/lib/x86_64-linux-gnu/"
     {% elsif flag?(:i686) %}
       x << "/usr/lib/i386-linux-gnu"
     {% end %}
